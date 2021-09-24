@@ -1,0 +1,7 @@
+The Groundwater / Rain Maker is an instrument add-on for our river models.
+The spraybar can be lowered to saturate the groundwater of the model, or it can be raised to simualte rainfall and runoff.
+This controller utilizes a diaphragm pump to handle the high pressure needed to force water through sprayers.
+The pump is controlled by a solid 12V power, and a pulsed ground to get a desired speed.
+This controller has a paddlewheel feedback sensor to monitor real flow rates, and its rated from 10-45 ml/s.
+The feedback from the paddlewheel is smoothed using a first order alpha filter.
+The instrument is closed loop, and runs a P control loop with gain scheduling.
